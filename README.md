@@ -2,11 +2,12 @@
 
 A collaboartive todo list exploring the following technologies:
 
-- TypeScript
-- Next.js
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript
+- [Next.js](https://nextjs.org/) - Zeit's serverless React framework
   - Static site generation
   - Serverless hosting
-- AWS Amplify
-  - Serverless GraphQL
+- [Amplify](https://aws.amazon.com/amplify/) - AWS's serverless development platform
+  - Serverless GraphQL via Appsync
+  - Serverless Auth via Cognito
 
   Neat.
