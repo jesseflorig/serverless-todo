@@ -1,0 +1,13 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  createdAt: String!
+  completed: Boolean!
+  todoList: TodoList! @connection(name: "SortedList")
+}
+
+type TodoList @model {
+  id: ID!
+  createdAt: String!
+  todos: [Todo] @connection(name: "SortedList", sortField: "createdAt")
+}

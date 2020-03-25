@@ -1,0 +1,20 @@
+{
+	"api": {
+		"serverlessTodo": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "serverless todo gql api",
+							"apiKeyExpirationDays": "365"
+						}
+					}
+				}
+			}
+		}
+	}
+}
